@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\bin\Debug\net6.0\E.Commerce.Domain.deps.json
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\bin\Debug\net6.0\E.Commerce.Domain.dll
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\bin\Debug\net6.0\E.Commerce.Domain.pdb
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.AssemblyInfo.cs
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.dll
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\refint\E.Commerce.Domain.dll
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.pdb
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\ref\E.Commerce.Domain.dll
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\bin\Debug\net6.0\E.Commerce.Identity.dll
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\bin\Debug\net6.0\E.Commerce.Identity.pdb
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commerce.Domain.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\E.Commerce\E.Commerce.Domain\obj\Debug\net6.0\E.Commer.8F85E3CB.Up2Date

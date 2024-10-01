@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;  
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/aspnet-signalr/signalr.min.js"></script>
+<link href="~/css/real-time/notification.css" rel="stylesheet" />
+
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Notifications</h1>
+        <div id="notifications-list">
+            <!-- Notification items will be dynamically added here -->
+        </div>
+        <button id="show-success-notification" class="btn btn-success mr-2">Show Success Notification</button>
+        <button id="show-info-notification" class="btn btn-info mr-2">Show Info Notification</button>
+        <button id="show-warning-notification" class="btn btn-warning mr-2">Show Warning Notification</button>
+        <button id="show-error-notification" class="btn btn-danger">Show Error Notification</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+<script>
+    $(document).ready(function () {
+        $('#show-success-notification').click(function () {
+            showNotification('Success notification', 'success');
+        });
+
+        $('#show-info-notification').click(function () {
+            showNotification('Info notification', 'info');
+        });
+
+        $('#show-warning-notification').click(function () {
+            showNotification('Warning notification', 'warning');
+        });
+
+        $('#show-error-notification').click(function () {
+            showNotification('Error notification', 'error');
+        });
+
+        function showNotification(message, type) {
+            const notification = $('<div>').addClass('notification').addClass(type).text(message);
+            $('#notifications-list').append(notification);
+
+            // Automatically remove the notification after 5 seconds
+            setTimeout(function () {
+                notification.fadeOut('slow', function () {
+                    $(this).remove();
+                });
+            }, 5000);
+        }
+    });
+</script>

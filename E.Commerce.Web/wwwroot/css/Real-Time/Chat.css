@@ -1,0 +1,28 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sent {
+    background-color: #e2f7cb;
+}
+
+.received {
+    background-color: #f2f2f2;
+}
